@@ -16,7 +16,9 @@ public class Main {
 
         int total = altura - 100;
 
-        System.out.println("Tu peso ideal es de " + " " + total + "kg44");
+      System.out.println("Tu peso ideal es de " + " " + total + "kg");
+      int diferencia = total - peso;
+      System.out.println("Te quedan " + diferencia + "kg" + " " + "para llegar a tu peso corporal ideal");
 
 
     }
